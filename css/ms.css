@@ -1,14 +1,29 @@
 .header {
-    height: 240px;  
-    overflow: hidden; 
+    /*height: 240px;  */
+    /*height: 60%;
+    overflow: hidden;  */
 }
 
 .header img { 
     width: 100%;
-	position: relative; 
-    top: -250px;}
-
-.head_imgx {
-	position: absolute;
-	clip: rect(0px,60px,200px,0px);
+	/*position: relative; 
+    top: -250px; */
+    z-index: -1;
+    float: left;
 }
+
+.header-txt {
+  float: left;
+  margin-left: 4em;
+  font-size: xx-large;
+  font-style: italic;
+  /* font-weight: bolder; */
+  color: beige;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: .3em;
+  position: relative;
+  top: -3em; 
+  z-index: 2;
+}
+
